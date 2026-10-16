@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ZESTORA brings premium shopping to your fingertips with smart deals, curated products, and a premium online experience."
+    />
+    <title>ZESTORA | Shop More · Live Better</title>
+    <link rel="icon" type="image/png" href="assets/images/zestora-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css?v=6" />
+  </head>
+  <body>
+    <div class="body-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a href="#top" class="brand" aria-label="Go to homepage">
+            <img src="assets/images/zestora-logo.png" alt="ZESTORA logo" class="brand-logo" />
+            <div class="brand-copy">
+              <span class="brand-name">ZESTORA</span>
+              <small>Shop More · Live Better</small>
+            </div>
+          </a>
+
+          <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+            <a href="#top" class="active">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#categories">Categories</a>
+            <a href="#deals">Deals</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <div class="header-actions">
+            <div class="search-shell">
+              <span class="icon search-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-label="Search icon"><path d="M10.5 3a7.5 7.5 0 015.97 12.8l4.13 4.13 1.41-1.41-4.13-4.13A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/></svg>
+              </span>
+              <input id="global-search" type="text" placeholder="Search for products..." aria-label="Search for products" autocomplete="off" />
+              <button id="clear-search" class="clear-search hidden" type="button" aria-label="Clear search">×</button>
+            </div>
+
+            <a href="/login" class="action-button ghost" aria-label="Login or sign up">
+              <span class="icon">
+                <svg viewBox="0 0 24 24" role="img" aria-label="User icon"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5z"/></svg>
+              </span>
+              <span>Login / Sign Up</span>
+            </a>
+
+            <button class="icon-button wishlist-button" type="button" aria-label="Wishlist" data-wishlist-trigger>
+              <span class="icon">
+                <svg viewBox="0 0 24 24" role="img" aria-label="Wishlist icon"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5A4.5 4.5 0 016.5 4c1.74 0 3.41.81 4.5 2.09A6.12 6.12 0 0115.5 4 4.5 4.5 0 0120 8.5c0 3.78-3.4 6.86-8.55 11.53L12 21.35z"/></svg>
+              </span>
+              <span class="badge wishlist-badge">0</span>
+            </button>
+
+            <button class="icon-button cart-button" type="button" aria-label="Shopping cart" data-cart-trigger>
+              <span class="icon">
+                <svg viewBox="0 0 24 24" role="img" aria-label="Cart icon"><path d="M7 18a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4zM6.2 6h13.56l-1.6 7.6H8.2L6.2 6zm-.4-2l.43 2H2v2h2.3l2.4 10.5a1 1 0 001 .8h10.6a1 1 0 001-.8L19.7 8H21V6h-1.6L17.4 4H5.8z"/></svg>
+              </span>
+              <span class="badge cart-badge">0</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero-section container">
+          <div class="hero-banner">
+            <div class="hero-curve curve-one"></div>
+            <div class="hero-curve curve-two"></div>
+            <div class="hero-content">
+              <span class="hero-badge">New Collection</span>
+              <h1 id="hero-title">Discover More.<br /><span>Shop Smarter.</span></h1>
+              <p id="hero-description">
+                Explore amazing products at unbeatable prices. Experience a smarter,
+                simpler shopping journey with ZESTORA.
+              </p>
+              <div class="hero-actions">
+                <a href="#shop" class="primary-button hero-shop-button">Shop Now <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+            <div id="hero-visual" class="hero-visual" aria-label="Promotional product arrangement">
+              <div class="display-platform"></div>
+              <div class="floating laptop">
+                <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80" alt="Laptop" />
+              </div>
+              <div class="floating headphones">
+                <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=700&q=80" alt="Wireless headphones" />
+              </div>
+              <div class="floating phone">
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80" alt="Smartphone" />
+              </div>
+              <div class="floating watch">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80" alt="Smartwatch" />
+              </div>
+              <div class="floating sneakers">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80" alt="White sneakers" />
+              </div>
+              <div class="floating plant">
+                <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=400&q=80" alt="Decorative plant" />
+              </div>
+            </div>
+            <div class="carousel-controls" aria-label="Hero slider controls">
+              <button class="carousel-button" type="button" data-carousel-step="-1" aria-label="Previous slide">←</button>
+              <div class="carousel-indicators" aria-label="Slide indicators">
+                <button class="active" type="button" data-carousel-slide="0" aria-label="Show slide 1" aria-current="true"></button>
+                <button type="button" data-carousel-slide="1" aria-label="Show slide 2"></button>
+                <button type="button" data-carousel-slide="2" aria-label="Show slide 3"></button>
+              </div>
+              <button class="carousel-button" type="button" data-carousel-step="1" aria-label="Next slide">→</button>
+            </div>
+          </div>
+        </section>
+
+        <div id="catalog-status" class="container catalog-status hidden" role="alert"></div>
+
+        <section id="categories" class="content-section container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Explore</p>
+              <h2>Shop by Category</h2>
+            </div>
+            <a href="#shop" class="view-link">View All</a>
+          </div>
+          <div id="category-grid" class="category-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="deals" class="content-section container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Savings</p>
+              <h2>🔥 Best Deals For You</h2>
+            </div>
+            <a href="#shop" class="view-link">View All Deals</a>
+          </div>
+          <div id="deal-grid" class="product-grid" aria-live="polite"></div>
+        </section>
+
+        <section id="shop" class="content-section container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Curated picks</p>
+              <h2>Featured Products</h2>
+            </div>
+            <button class="secondary-button" type="button" data-show-all-products>See All Products</button>
+          </div>
+          <div id="featured-grid" class="product-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="content-section container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Popular now</p>
+              <h2>Trending Now</h2>
+            </div>
+          </div>
+          <div id="trending-grid" class="product-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="promo-banner-wrap container">
+          <div class="promo-banner">
+            <div class="promo-copy">
+              <p class="eyebrow light">Upgrade your lifestyle</p>
+              <h3>Upgrade Your Everyday.</h3>
+              <p>Discover products you'll love at prices you'll appreciate.</p>
+              <button class="primary-button white" type="button">Explore Collection</button>
+            </div>
+            <div class="promo-visual" aria-hidden="true">
+              <div class="promo-product product-bag"> </div>
+              <div class="promo-product product-watch"> </div>
+              <div class="promo-product product-shoe"> </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="newsletter-section container">
+          <div class="newsletter-card">
+            <div>
+              <p class="eyebrow">Stay connected</p>
+              <h2>Stay in the Loop</h2>
+              <p>Get updates about new arrivals and special offers.</p>
+            </div>
+            <form id="newsletter-form" class="newsletter-form" novalidate>
+              <label class="visually-hidden" for="newsletter-email">Email address</label>
+              <input id="newsletter-email" type="email" placeholder="Enter your email address" />
+              <button type="submit">Subscribe</button>
+            </form>
+            <p id="newsletter-message" class="newsletter-message" aria-live="polite"></p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" id="contact">
+        <div class="container footer-grid">
+          <div class="footer-branding">
+            <a href="#top" class="brand footer-brand" aria-label="ZESTORA homepage">
+              <img src="assets/images/zestora-logo.png" alt="ZESTORA logo" class="brand-logo" />
+              <div class="brand-copy">
+                <span class="brand-name">ZESTORA</span>
+              </div>
+            </a>
+            <p>About ZESTORA.</p>
+            <div class="footer-links-inline">
+              <a href="#about">Contact Us</a>
+              <a href="#careers">Careers</a>
+            </div>
+            <a class="admin-entry-link" href="/admin/login">Store owner? Admin Login →</a>
+          </div>
+
+          <div>
+            <h3>Customer Service</h3>
+            <ul>
+              <li><a href="#help">Help Center</a></li>
+              <li><a href="#shipping">Shipping Information</a></li>
+              <li><a href="#returns">Returns and Refunds</a></li>
+              <li><a href="#faq">Frequently Asked Questions</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Policies</h3>
+            <ul>
+              <li><a href="#privacy">Privacy Policy</a></li>
+              <li><a href="#terms">Terms and Conditions</a></li>
+              <li><a href="#return-policy">Return Policy</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Shopping</h3>
+            <ul>
+              <li><a href="#electronics">Electronics</a></li>
+              <li><a href="#fashion">Fashion</a></li>
+              <li><a href="#shoes">Shoes</a></li>
+              <li><a href="#home">Home &amp; Living</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Social</h3>
+            <ul>
+              <li><a href="#instagram">Instagram</a></li>
+              <li><a href="#facebook">Facebook</a></li>
+              <li><a href="#youtube">YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom container">
+          <p>© 2026 ZESTORA. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <aside id="cart-drawer" class="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+      <div class="drawer-header">
+        <h3>Your Cart</h3>
+        <button type="button" class="drawer-close" aria-label="Close cart">×</button>
+      </div>
+      <div id="cart-items" class="cart-items"></div>
+      <div id="cart-empty" class="cart-empty hidden">
+        <p>Your cart is empty.</p>
+      </div>
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <strong id="cart-subtotal">₹0</strong>
+        </div>
+        <button type="button" class="checkout-button">Checkout</button>
+      </div>
+    </aside>
+
+    <aside id="wishlist-panel" class="wishlist-panel" aria-label="Wishlist" aria-hidden="true">
+      <div class="drawer-header">
+        <h3>Your Wishlist</h3>
+        <button type="button" class="drawer-close wishlist-close" aria-label="Close wishlist">×</button>
+      </div>
+      <div id="wishlist-items" class="wishlist-items"></div>
+      <div id="wishlist-empty" class="wishlist-empty hidden">
+        <p>Your wishlist is empty.</p>
+      </div>
+    </aside>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="js/products.js"></script>
+    <script type="module" src="js/cart.js"></script>
+    <script type="module" src="js/wishlist.js"></script>
+    <script type="module" src="js/search.js"></script>
+    <script type="module" src="js/app.js?v=4"></script>
+  </body>
+</html>
